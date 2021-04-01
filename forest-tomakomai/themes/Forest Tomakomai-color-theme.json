@@ -2,8 +2,8 @@
 	"name": "Forest Tomakomai",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
+		"editor.background": "#121a1f",
+		"editor.foreground": "#d9ebe7",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
@@ -624,6 +624,52 @@
 			"settings": {
 				"foreground": "#EEFFFF"
 			}
+		},
+		{
+			"name": "Hive - keyword.control",
+			"scope": [
+				"source.hive keyword.control"
+			],
+			"settings": {
+				"foreground": "#6a9e6a"
+			}
+		},
+		{
+			"name": "Hive - kata",
+			"scope": [
+				"source.hive storage.type"
+			],
+			"settings": {
+				"foreground": "#b5cc76"
+			}
+		},
+		{
+			"name": "Hive - keyword",
+			"scope": [
+				"source.hive constant.numeric"
+			],
+			"settings": {
+				"foreground": "#d37741"
+			}
+		},
+		{
+			"name": "Hive - keyword",
+			"scope": [
+				"source.hive support.function"
+			],
+			"settings": {
+				"foreground": "#b89f67"
+			}
+		},
+		{
+			"name": "Hive - keyword",
+			"scope": [
+				"source.hive keyword.operator"
+			],
+			"settings": {
+				"foreground": "#d8dbd8"
+			}
 		}
+		
 	]
 }
