@@ -1,0 +1,21 @@
+{
+    "name": "forest-tomakomai",
+    "displayName": "Forest Tomakomai",
+    "description": "cool-temperate deciduous forest with oak, maple and linden trees",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Forest Tomakomai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Forest Tomakomai-color-theme.json"
+            }
+        ]
+    }
+}
