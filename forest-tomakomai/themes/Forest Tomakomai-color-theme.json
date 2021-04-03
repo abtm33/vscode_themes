@@ -2,8 +2,8 @@
 	"name": "Forest Tomakomai",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#121a1f",
-		"editor.foreground": "#d9ebe7",
+		"editor.background": "#0f1316",
+		"editor.foreground": "#e2e2d8",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
@@ -626,12 +626,30 @@
 			}
 		},
 		{
+			"name": "Hive - keyword",
+			"scope": [
+				"source.hive keyword"
+			],
+			"settings": {
+				"foreground": "#e2e1db"
+			}
+		},
+		{
 			"name": "Hive - keyword.control",
 			"scope": [
 				"source.hive keyword.control"
 			],
 			"settings": {
-				"foreground": "#6a9e6a"
+				"foreground": "#608060"
+			}
+		},
+		{
+			"name": "Hive - operator",
+			"scope": [
+				"source.hive keyword.operator"
+			],
+			"settings": {
+				"foreground": "#d8dbd8"
 			}
 		},
 		{
@@ -640,36 +658,138 @@
 				"source.hive storage.type"
 			],
 			"settings": {
-				"foreground": "#b5cc76"
+				"foreground": "#b0c084"
 			}
 		},
 		{
-			"name": "Hive - keyword",
+			"name": "Hive - numeric",
 			"scope": [
 				"source.hive constant.numeric"
 			],
 			"settings": {
-				"foreground": "#d37741"
+				"foreground": "#CC8F52"
 			}
 		},
 		{
-			"name": "Hive - keyword",
+			"name": "Hive - numeric",
+			"scope": [
+				"source.hive constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#8FBF8F"
+			}
+		},
+		{
+			"name": "Hive - string",
+			"scope": [
+				"source.hive string"
+			],
+			"settings": {
+				"foreground": "#8FBF8F"
+			}
+		},
+		{
+			"name": "Hive - function",
 			"scope": [
 				"source.hive support.function"
 			],
 			"settings": {
-				"foreground": "#b89f67"
+				"foreground": "#CCBB88"
 			}
 		},
 		{
-			"name": "Hive - keyword",
+			"name": "Hive - function",
 			"scope": [
-				"source.hive keyword.operator"
+				"source.hive comment"
 			],
 			"settings": {
-				"foreground": "#d8dbd8"
+				"foreground": "#77756e"
+			}
+		},
+		{
+			"name": "r - function",
+			"scope": [
+				"source.r support.function",
+				"source.r variable.function",
+				"source.r meta.function-call",
+			],
+			"settings": {
+				"foreground": "#80b19c"
+			}
+		},
+		{
+			"name": "r - variable",
+			"scope": [
+				"source.r variable"
+			],
+			"settings": {
+				"foreground": "#e2e2d8"
+			}
+		},
+		{
+			"name": "r - variable",
+			"scope": [
+				"source.r variable.parameter"
+			],
+			"settings": {
+				"foreground": "#b8b884"
+			}
+		},
+		{
+			"name": "r - keyword",
+			"scope": [
+				"source.r keyword",
+				"source.r keyword.other"
+			],
+			"settings": {
+				"foreground": "#b8b884"
+			}
+		},
+		{
+			"name": "r - comment",
+			"scope": [
+				"source.r comment",
+				"source.r punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#77756e"
+			}
+		},
+		{
+			"name": "r - numeric",
+			"scope": [
+				"source.r constant.numeric"
+			],
+			"settings": {
+				"foreground": "#CC8F52"
+			}
+		},
+		{
+			"name": "r - string",
+			"scope": [
+				"source.r string"
+			],
+			"settings": {
+				"foreground": "#8FBF8F"
+			}
+		},
+		{
+			"name": "r - punctuation",
+			"scope": [
+				"source.r punctuation"
+			],
+			"settings": {
+				"foreground": "#8FBF8F"
+			}
+		},
+		{
+			"name": "r - punctuation",
+			"scope": [
+				"source.r constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#d88859"
 			}
 		}
-		
 	]
 }
