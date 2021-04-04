@@ -10,6 +10,16 @@ source("funcs.R")
 setwd("./saturniidae/")
 
 
+tesfun <- def(x) {
+    if(!is.numeric(x)) {
+        print("NUMERIC PLEASE")
+    } else {
+        "OK"
+    }
+    return(x^2)
+}
+
+
 ### データ：系統樹 ###########################################################
 tree <- read.nexus("silk19.tree")
 tree$tip.label[21] <- "Copaxa_sp."
@@ -35,7 +45,7 @@ ages <- ages[!ages$tip %in% outgroup, ] %>%
     as_tibble()
 
 
-
+# 7dc5a6
 
 
 ### データ：種数~多様化率 ###############################################
