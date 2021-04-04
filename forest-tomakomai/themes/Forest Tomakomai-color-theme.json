@@ -640,7 +640,7 @@
 				"source.hive keyword.control"
 			],
 			"settings": {
-				"foreground": "#608060"
+				"foreground": "#7dc5a6"
 			}
 		},
 		{
@@ -714,7 +714,7 @@
 				"source.r meta.function-call",
 			],
 			"settings": {
-				"foreground": "#80b19c"
+				"foreground": "#95c950"
 			}
 		},
 		{
@@ -743,6 +743,15 @@
 			],
 			"settings": {
 				"foreground": "#b8b884"
+			}
+		},
+		{
+			"name": "r - keyword_control",
+			"scope": [
+				"source.r keyword.control"
+			],
+			"settings": {
+				"foreground": "#6687b8"
 			}
 		},
 		{
@@ -790,6 +799,42 @@
 			"settings": {
 				"foreground": "#d88859"
 			}
-		}
+		},
+		{
+			"name": "python - string",
+			"scope": [
+				"source.python string"
+			],
+			"settings": {
+				"foreground": "#8FBF8F"
+			}
+		},
+		{
+			"name": "python - punctuation",
+			"scope": [
+				"source.python punctuation"
+			],
+			"settings": {
+				"foreground": "#8FBF8F"
+			}
+		},
+		{
+			"name": "python - metafun",
+			"scope": [
+				"source.python meta.function-call"
+			],
+			"settings": {
+				"foreground": "#CCBB88"
+			}
+		},
+		{
+			"name": "python - supportfun",
+			"scope": [
+				"source.python support.function"
+			],
+			"settings": {
+				"foreground": "#95c950"
+			}
+		},
 	]
 }
